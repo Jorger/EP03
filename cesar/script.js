@@ -9,12 +9,6 @@ function inicio()
 	function codifica(descifrar)
 	{
 		var NumeroText  = nom_div("caja_2").value;
-		/*
-		if (!/^-?\d+$/.test(NumeroText))
-		{
-			alert("No es un número entero");
-		}
-		*/
 		var numPosiciones = Number(NumeroText);
 		if (numPosiciones < 0 || numPosiciones >= 1000)
 		{
@@ -22,10 +16,10 @@ function inicio()
 		}
 		if(descifrar)
 		{
-			numPosiciones = (26 - numPosiciones) % 1000;	//realiza la operación para determinar el numero de posiciones 
+			numPosiciones = (26 - numPosiciones) % 1000;
 		}
-		var textoOpera = nom_div("caja_1").value;	//identifica el valor ingresado en text
-		nom_div("tabla").innerHTML = realizaCesar(textoOpera, numPosiciones); //identifica y evalua con el metodo Cod
+		var textoOpera = nom_div("caja_1").value;
+		nom_div("tabla").innerHTML = realizaCesar(textoOpera, numPosiciones);
 	}
 	
 	function realizaCesar(texto, numMueve)
