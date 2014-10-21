@@ -14,6 +14,13 @@ Demo
 
 https://db.tt/FuKf7wfb
 
+Dependencias
+-----------
+
+[Jquery]
+
+[CircleType]
+
 
 Autor
 -----------
@@ -29,3 +36,5 @@ MIT
 
 [@ostjh]:https://twitter.com/ostjh
 [alberti]:http://es.wikipedia.org/wiki/Cifrado_de_Alberti
+[Jquery]:http://jquery.com/
+[CircleType]:http://circletype.labwire.ca/
