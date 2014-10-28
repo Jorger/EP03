@@ -1,0 +1,99 @@
+body
+{
+	color: white;
+	font-family: Arial;
+	background: rgba(73,155,234,1);
+	background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+	background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+}
+/*
+table
+{
+	background-color: black;
+
+}
+*/
+#chess_board td 
+{
+	height:50px;
+	width:50px;
+	text-align:center;
+	vertical-align:text-top;
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.estiloTodos
+{		
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: black;
+	background-color: white;
+	width: 80%;
+	border: 3px solid black;
+	border-radius: 15px;
+	font-size: 20px;
+	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+   	white-space: -pre-wrap;      /* Opera 4-6 */
+   	white-space: -o-pre-wrap;    /* Opera 7 */
+   	white-space: pre-wrap;       /* css-3 */
+   	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+   	word-break: break-all;
+   	white-space: normal;
+}
+
+.cifraAlfa
+{
+	height:50px;
+	width:50px;
+	margin: 2px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+#cifra
+{
+	height: 150px;
+}
+
+.baseAlfabeto
+{
+	background-image: url(../img/alfabeto.png);
+}
+
+.mason-a{ background-position: 0 0; width: 50px; height: 50px; } 
+.mason-b{ background-position: -100px 0; width: 50px; height: 50px; } 
+.mason-c{ background-position: -200px 0; width: 50px; height: 50px; } 
+.mason-d{ background-position: -300px 0; width: 50px; height: 50px; } 
+.mason-e{ background-position: -400px 0; width: 50px; height: 50px; } 
+.mason-ene{ background-position: -500px 0; width: 50px; height: 50px; } 
+.mason-f{ background-position: -600px 0; width: 50px; height: 50px; } 
+.mason-g{ background-position: -700px 0; width: 50px; height: 50px; } 
+.mason-h{ background-position: -800px 0; width: 50px; height: 50px; } 
+.mason-i{ background-position: -900px 0; width: 50px; height: 50px; } 
+.mason-j{ background-position: -1000px 0; width: 50px; height: 50px; } 
+.mason-k{ background-position: -1100px 0; width: 50px; height: 50px; } 
+.mason-l{ background-position: -1200px 0; width: 50px; height: 50px; } 
+.mason-m{ background-position: -1300px 0; width: 50px; height: 50px; } 
+.mason-n{ background-position: -1400px 0; width: 50px; height: 50px; } 
+.mason-o{ background-position: -1500px 0; width: 50px; height: 50px; } 
+.mason-p{ background-position: -1600px 0; width: 50px; height: 50px; } 
+.mason-q{ background-position: -1700px 0; width: 50px; height: 50px; } 
+.mason-r{ background-position: -1800px 0; width: 50px; height: 50px; } 
+.mason-s{ background-position: -1900px 0; width: 50px; height: 50px; } 
+.mason-t{ background-position: 0 -100px; width: 50px; height: 50px; } 
+.mason-u{ background-position: -100px -100px; width: 50px; height: 50px; } 
+.mason-v{ background-position: -200px -100px; width: 50px; height: 50px; } 
+.mason-w{ background-position: -300px -100px; width: 50px; height: 50px; } 
+.mason-x{ background-position: -400px -100px; width: 50px; height: 50px; } 
+.mason-y{ background-position: -500px -100px; width: 50px; height: 50px; } 
+.mason-z{ background-position: -600px -100px; width: 50px; height: 50px; }
