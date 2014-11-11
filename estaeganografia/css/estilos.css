@@ -1,0 +1,108 @@
+body
+{
+    text-align: center;
+    /*background-color: lightgray;*/
+    color: white;
+    font-family: Arial;
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+    background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+}
+
+body, textarea, input {
+    font-family: Helvetica, Arial;
+    border: none;
+}
+
+a {
+    color: white;
+}
+
+p {
+    text-indent: 1.5em;
+}
+
+.section {
+    width: 450px;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+@media (max-width: 700px) {
+    .section {
+        width: 70%;
+    }
+
+    /* so the 'fork me on github' ribbon doesn't overlap the text */
+    h1 {
+        margin-bottom: 60px;
+    }
+}
+
+.dark {
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgray;
+}
+
+.sectionbody {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.step {
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -50px;
+    background-color: dimgray;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.left {
+    width: 45%;
+    float: left;
+}
+
+.right {
+    width: 45%;
+    float: right;
+}
+
+.password {
+    width: 100%;
+}
+
+.message {
+    width: 100%;
+    height: 100px;
+}
+
+.submit {
+    float: right;
+}
+
+.preview {
+    margin-top: 30px;
+    width: 100px;
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+#output[src] {
+    margin-bottom: 1em;
+    box-shadow: 0px 0.5em 1em rgba(0,0,0,0.5);
+}
